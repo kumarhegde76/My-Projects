@@ -1,0 +1,15 @@
+<?php
+
+	$servername = "sql313.epizy.com";
+	$username = "root";
+	$password = "";
+	$dbname = "Sparks_Bank";
+        
+	$conn = mysqli_connect($servername,$username,$password,$dbname);
+        
+     
+	if(!$conn){
+		die("Could not connect to the database due to the following error --> ".mysqli_connect_error());
+	}
+
+?>
